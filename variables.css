@@ -1,0 +1,14 @@
+h1, h3 {
+  text-align: center;
+  font-family: cursive; }
+
+.container {
+  display: grid; }
+
+.homepageimages {
+  width: 50%; }
+
+.description {
+  font-family: Luminari, fantasy; }
+
+/*# sourceMappingURL=variables.css.map */
