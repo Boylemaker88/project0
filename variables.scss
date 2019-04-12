@@ -1,4 +1,4 @@
-$factionDescriptionFont: Luminari, fantasy;
+$factionDescriptionFont: cursive;
 
 h1, h3 {
     text-align: center;
@@ -9,8 +9,12 @@ h1, h3 {
 }
 .homepageimages {
     width: 50%;
+    height: 75%;
 }
 
 .description {
     font-family: $factionDescriptionFont;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 10px;
 }

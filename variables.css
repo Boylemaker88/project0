@@ -6,9 +6,13 @@ h1, h3 {
   display: grid; }
 
 .homepageimages {
-  width: 50%; }
+  width: 50%;
+  height: 75%; }
 
 .description {
-  font-family: Luminari, fantasy; }
+  font-family: cursive;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 10px; }
 
 /*# sourceMappingURL=variables.css.map */
