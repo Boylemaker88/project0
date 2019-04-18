@@ -17,7 +17,13 @@ div {
         font-size: 15px;
     }
 }
-h1, h3 {
+#siteHeader {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+h3 {
     text-align: center;
     font-family: cursive;
 }
@@ -41,6 +47,11 @@ h1, h3 {
     height: 50%;
 }
 
+table, td, th {
+    border: 5px solid green;
+    padding: 10px;
+}
+
 /* SASS Inheritance */
 %genericPowerText {
     font-family: $factionDescriptionFont;
@@ -52,4 +63,9 @@ h1, h3 {
 .alliancePowerText {
     @extend %genericPowerText;
     color: green;
+}
+
+.marquisePowerText {
+    @extend %genericPowerText;
+    color: red;
 }
